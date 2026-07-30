@@ -1,5 +1,6 @@
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
 }
 
 img {
@@ -23,19 +24,37 @@ img {
     font-size: 4rem;
 }
 
-.two-column {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 50px;
+/* Each page section */
+.content-section {
     width: 90%;
-    margin: auto;
-    margin-top: 40px;
+    margin: 40px auto;
 }
 
-.two-column .image img {
+/* Text + Image */
+.two-column {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.image img {
     border-radius: 25px;
 }
 
 .info {
     font-size: 1.15em;
+}
+
+/* Did You Know */
+.did-you-know {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 2px solid #ddd;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.did-you-know strong {
+    font-weight: bold;
 }

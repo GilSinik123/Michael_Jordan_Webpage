@@ -38,6 +38,7 @@ img {
     grid-template-columns: 2fr 1fr;
     gap: 50px;
     align-items: center;
+    border-bottom: 2px solid #ddd;
 }
 
 .image img {
@@ -52,7 +53,6 @@ img {
 .did-you-know {
     margin-top: 25px;
     padding-top: 15px;
-    border-top: 2px solid #ddd;
     font-size: 1.05rem;
     line-height: 1.6;
 }

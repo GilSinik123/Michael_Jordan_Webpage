@@ -58,3 +58,22 @@ img {
 .did-you-know strong {
     font-weight: bold;
 }
+
+.facts-section {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.facts-section h1 {
+    margin-bottom: 25px;
+}
+
+.facts-section ol {
+    padding-left: 30px;
+    line-height: 1.5;
+    font-size: 1.15em;
+}
+
+.facts-section li {
+    margin-bottom: 12px;
+}

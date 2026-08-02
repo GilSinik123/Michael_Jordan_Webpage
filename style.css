@@ -1,13 +1,28 @@
+/* General */
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
 }
 
-img {
-    width: 100%;
+body {
+    background: #F7F7F7;
+    color: #222;
+    margin: 0;
 }
 
+/* Section Cards */
+.section {
+    background: white;
+    border-radius: 18px;
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 1100px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+/* Hero */
 .hero-image {
+    position: relative;
     background-image: url("Images/Main_page/michael-jordan-hero-image.jpg");
     height: 352px;
     background-position: center 5%;
@@ -15,52 +30,102 @@ img {
     background-size: cover;
 }
 
-.hero-text {
-    font-family: 'Poppins' 'sans-serif';
-    color: whitesmoke;
-    -webkit-text-stroke: 2px black;
-    font-size: 56px;
+.hero-image::before {
+    content: "";
     position: absolute;
-    text-align: center;
-    top: 240px;
-    width: 100%;
+    inset: 0;
+    background: rgba(0,0,0,.15);
 }
 
-/* Each page section */
+.hero-text {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    text-shadow: 2px 2px 6px rgba(0,0,0,.8);
+}
+
+/* Images */
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 14px rgba(0,0,0,.15);
+    transition: transform .3s;
+}
+
+.image img:hover {
+    transform: scale(1.04);
+}
+
+/* Content Sections */
 .content-section {
     width: 90%;
     margin: 40px auto;
 }
 
-/* Text + Image */
-.two-column {
+.two-column-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
+}
+
+.two-column-2 {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 50px;
     align-items: center;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
 }
 
-.image img {
-    border-radius: 25px;
+/* Text */
+.info h1 {
+    font-size: 2.6rem;
+    margin-bottom: 25px;
+    color: #222;
 }
 
-.info {
-    font-size: 1.15em;
+.info p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
 }
 
-/* Did You Know */
+/* Did You Know Box */
 .did-you-know {
-    margin-top: 25px;
-    padding-top: 15px;
-    font-size: 1.05rem;
-    line-height: 1.6;
+    margin-top: 30px;
+    background: #FFF7E6;
+    border-left: 5px solid #CE1141;
+    padding: 18px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    line-height: 1.5;
 }
 
 .did-you-know strong {
+    font-size: 1.05rem;
     font-weight: bold;
 }
 
+/* Facts Section */
 .facts-section {
     width: 90%;
     margin: 40px auto;
@@ -68,14 +133,15 @@ img {
 
 .facts-section h1 {
     margin-bottom: 25px;
+    font-size: 2.2rem;
 }
 
 .facts-section ol {
     padding-left: 30px;
-    line-height: 1.5;
-    font-size: 1.15em;
+    line-height: 1.7;
+    font-size: 1.1rem;
 }
 
 .facts-section li {
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }

@@ -113,7 +113,7 @@ body {
 .did-you-know {
     margin-top: 30px;
     background: cornsilk;
-    border-left: 5px solid rgb(220,20,20);
+    border-left: 5px solid rgb(206, 17, 38);
     padding: 18px;
     border-radius: 10px;
     font-size: 1rem;
@@ -141,7 +141,7 @@ body {
 /* Grid */
 .facts-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 
@@ -161,7 +161,7 @@ body {
 
 /* Heading */
 .fact h3 {
-    color: #c8102e;
+    color: rgb(206, 17, 38);
     margin-top: 0;
     margin-bottom: 12px;
     font-size: 1.3rem;

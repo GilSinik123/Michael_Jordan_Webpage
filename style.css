@@ -112,16 +112,16 @@ body {
 /* Did You Know Box */
 .did-you-know {
     margin-top: 30px;
-    background: #FFF7E6;
-    border-left: 5px solid #CE1141;
+    background: cornsilk;
+    border-left: 5px solid rgb(220,20,20);
     padding: 18px;
     border-radius: 10px;
-    font-size: 0.95rem;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
 .did-you-know strong {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
@@ -131,17 +131,44 @@ body {
     margin: 40px auto;
 }
 
+
+
 .facts-section h1 {
-    margin-bottom: 25px;
-    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.facts-section ol {
-    padding-left: 30px;
-    line-height: 1.7;
-    font-size: 1.1rem;
+/* Grid */
+.facts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
 
-.facts-section li {
-    margin-bottom: 14px;
+/* Fact Card */
+.fact {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.fact:hover {
+    transform: translateY(-5px);
+}
+
+/* Heading */
+.fact h3 {
+    color: #c8102e;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+/* Paragraph */
+.fact p {
+    margin: 0;
+    line-height: 1.6;
 }

@@ -24,7 +24,7 @@ body {
 .hero-image {
     position: relative;
     background-image: url("Images/Main_page/michael-jordan-hero-image.jpg");
-    height: 752px;
+    height: 352px;
     background-position: center 5%;
     background-repeat: no-repeat;
     background-size: cover;

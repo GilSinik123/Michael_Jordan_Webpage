@@ -172,7 +172,7 @@ body {
     line-height: 1.6;
 }
 
-detal_link {
+.detail_link {
     text-decoration: none;
-    color: inherit;
+    color: Black;
 }

@@ -175,4 +175,11 @@ body {
 .detail_link {
     text-decoration: none;
     color: Black;
+    position: relative;
+    display: block;
+}
+
+.detailed_page_text {
+    position: absolute;
+    bottom: 30px;
 }

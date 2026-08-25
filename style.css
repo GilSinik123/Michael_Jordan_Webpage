@@ -171,3 +171,8 @@ body {
     margin: 0;
     line-height: 1.6;
 }
+
+detal_link {
+    text-decoration: none;
+    color: inherit;
+}

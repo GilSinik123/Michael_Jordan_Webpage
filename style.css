@@ -1,4 +1,4 @@
-/* General */
+ /* General */
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
@@ -53,25 +53,6 @@ body {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, .8);
 }
 
-/* Images */
-.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.image img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, .15);
-    transition: transform .3s;
-}
-
-.image img:hover {
-    transform: scale(1.04);
-}
 
 /* Content Sections */
 .content-section {
@@ -96,6 +77,86 @@ body {
     border-bottom: 1px solid #ddd;
     padding-bottom: 40px;
 }
+
+/* Images + Links */
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.4s ease;
+}
+
+.image:hover {
+    transform: scale(1.04);
+}
+
+
+.detail_link {
+    border-radius: 15px;
+    text-decoration: none;
+    color: Black;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.detail_link img {
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.detailed_page_text {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    /* position the text layer over the full image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+    /* visual styles */
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    /* CHANGED: creates the grey background over the image */
+    background-color: rgba(128, 128, 128, 0.65);
+
+    /* layer positioning */
+    z-index: 1;
+
+    /* CHANGED: keeps the grey background hidden before hovering */
+    opacity: 0;
+
+    /* CHANGED: smoothly fades the grey background in and out */
+    transition: opacity 0.4s ease;
+}
+
+
+/* HOVER STATES */
+
+/* CHANGED: zooms and darkens the image when hovered */
+.detail_link:hover img {
+    filter: brightness(0.6);
+}
+
+/* CHANGED: shows the grey background and "Read more" text */
+.detail_link:hover .detailed_page_text {
+    opacity: 1;
+    z-index: 3;
+}
+
 
 /* Text */
 .info h1 {
@@ -170,64 +231,4 @@ body {
 .fact p {
     margin: 0;
     line-height: 1.6;
-}
-
-.detail_link {
-    border-radius: 15px;
-    text-decoration: none;
-    color: Black;
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    background-color: transparent;
-}
-
-.detail_link img{
-    border-radius: 15px;
-    display: block;
-    width: 100%;
-    height: auto;
-    position: relative;
-    z-index: 2; /* make sure that the image is above the text */
-    transition: filter 0.4 ease, opacity 0.4s ease;
-}
-.detailed_page_text {
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    /*position the text layer over the full image*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    
-    /* visual styles */
-    color: white;
-    font-weight:bold;
-    font-size: 1.2rem;
-    background-color: rgba(128, 128, 128, 0.7);
-
-    /*layer positioning */
-    z-index: 1; /* make sure that the text is behind the image */
-    opacity: 0; /* start with the text hidden */
-    transition: opacity 0.4 ease, z-index 0s linear 0.4s; /* smooth transition for opacity and z-index */ 
-
-}
-
-/* HOVER STATES */
-
-/* 1. Bring the text to the front layer instantly and fade it in */
-
-.detail_link:hover .detailed_page_text {
-    z-index: 3;  /* Pops out in front of the image (which is z-index 2) */
-    opacity: 1;  /* Fades into view smoothly */
-    transition: opacity 0.4s ease, z-index 0s linear; /* Switches z-index instantly on hover */
-}
-
-/* 2. Optional: Add contrast adjustments to the image so text pops more */
-.detail_link:hover img {
-    filter: brightness(0.6) contrast(1.2); /* Boosts contrast and dims the photo slightly */
 }

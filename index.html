@@ -1,172 +1,305 @@
-/* General */
-* {
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-'Lucida Sans', Arial, sans-serif;
-}
+<!DOCTYPE html>
 
-body {
-background: #F7F7F7;
-color: #222;
-margin: 0;
-}
+<html lang="en">
 
-/* Section Cards */
-.section {
-background: white;
-border-radius: 18px;
-padding: 40px;
-margin: 50px auto;
-max-width: 1100px;
-box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
-}
+<head>
 
-/* Hero */
-.hero-image {
-position: relative;
-background-image: url("Images/Main_page/michael-jordan-hero-image.jpg");
-height: 352px;
-background-position: center 5%;
-background-repeat: no-repeat;
-background-size: cover;
-}
+    <!-- Links the HTML page to the external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
 
-.hero-image::before {
-content: "";
-position: absolute;
-inset: 0;
-background: rgba(0, 0, 0, .15);
-}
+    <!-- Sets the title shown in the browser tab -->
+    <title>Michael Jordan</title>
+</head>
 
-.hero-text {
-font-family: 'Poppins', sans-serif;
-color: white;
-font-size: 56px;
-font-weight: bold;
-position: absolute;
-bottom: 25px;
-left: 50%;
-transform: translateX(-50%);
-text-align: center;
-width: 100%;
-z-index: 1;
-text-shadow: 2px 2px 6px rgba(0, 0, 0, .8);
-}
+<body>
 
-/* Images */
-.image {
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 20px;
-}
+    <!-- Hero section containing the main page heading -->
+    <section class="hero-image">
+        <h1 class="hero-text">
+            Michael Jordan
+        </h1>
+    </section>
 
-.image img {
-width: 100%;
-height: auto;
-border-radius: 15px;
-box-shadow: 0 6px 14px rgba(0, 0, 0, .15);
-transition: transform .3s;
-}
 
-.image img:hover {
-transform: scale(1.04);
-}
+    <!-- Section 1: Information about Michael Jordan's first three-peat -->
+    <section class="content-section">
 
-/* Content Sections */
-.content-section {
-width: 90%;
-margin: 40px auto;
-}
+        <!-- Two-column layout containing an image and information -->
+        <div class="two-column-1">
 
-.two-column-1 {
-display: grid;
-grid-template-columns: 1fr 2fr;
-gap: 50px;
-align-items: center;
-border-bottom: 1px solid #ddd;
-padding-bottom: 40px;
-}
+            <!-- Image linking to the detailed First 3-Peat section -->
+            <div class="image">
+                <a href="secondary_3-peat.html" class="detail_link">
 
-.two-column-2 {
-display: grid;
-grid-template-columns: 2fr 1fr;
-gap: 50px;
-align-items: center;
-border-bottom: 1px solid #ddd;
-padding-bottom: 40px;
-}
+                    <!-- Main image for the First 3-Peat section -->
+                    <img src="Images/3-peat_page/Jordan_first_3-peat.jpg"
+                        alt="Jordan first 3-peat">
 
-/* Text */
-.info h1 {
-font-size: 2.6rem;
-margin-bottom: 25px;
-color: #222;
-}
+                    <!-- Text displayed over/near the image to encourage users to read more -->
+                    <div class="detailed_page_text">
+                        <p>Read more</p>
+                    </div>
+                </a>
+            </div>
 
-.info p {
-font-size: 1.1rem;
-line-height: 1.7;
-margin-bottom: 20px;
-}
+            <!-- Information about Jordan's first three-peat -->
+            <div class="info">
+                <h1>The First 3-Peat</h1>
 
-/* Did You Know Box */
-.did-you-know {
-margin-top: 30px;
-background: cornsilk;
-border-left: 5px solid rgb(206, 17, 38);
-padding: 18px;
-border-radius: 10px;
-font-size: 1rem;
-line-height: 1.5;
-}
+                <p>
+                    <!-- Main introductory paragraph -->
+                    <span>
+                        Michael Jordan's first three-peat marked the beginning of one of basketball's greatest
+                        dynasties. During this period, the Chicago Bulls developed a winning culture built on
+                        teamwork, discipline, and Jordan's determination to be the best. His ability to inspire
+                        teammates and perform under pressure helped the Bulls become one of the NBA's most respected
+                        franchises.
+                    </span>
 
-.did-you-know strong {
-font-size: 1.1rem;
-font-weight: bold;
-}
+                    This era also changed the popularity of basketball around the world. Jordan became a global
+                    sporting icon, attracting millions of new fans and helping the NBA reach audiences far beyond the
+                    United States. The first three-peat remains an important chapter in his career because it
+                    established the standard of excellence that would define his legacy.
+                </p>
 
-/* Facts Section */
-.facts-section {
-width: 90%;
-margin: 40px auto;
-}
+                <!-- Interesting fact about the first three-peat -->
+                <div class="did-you-know">
+                    <strong>Did you know?</strong>
+                    Michael Jordan won all three NBA Finals MVP awards during the Bulls' first three-peat.
+                </div>
+            </div>
 
-.facts-section h1 {
-text-align: center;
-margin-bottom: 40px;
-}
+        </div>
 
-/* Grid */
-.facts-grid {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 30px;
-}
+    </section>
 
-/* Fact Card */
-.fact {
-background: white;
-padding: 25px;
-border-radius: 15px;
-box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-transition: 0.3s;
-}
 
-/* Hover Effect */
-.fact:hover {
-transform: translateY(-5px);
-}
+    <!-- Section 2: Information about the Jordan Brand -->
+    <section class="content-section">
 
-/* Heading */
-.fact h3 {
-color: rgb(206, 17, 38);
-margin-top: 0;
-margin-bottom: 12px;
-font-size: 1.3rem;
-}
+        <!-- Two-column layout with information on the left and image on the right -->
+        <div class="two-column-2">
 
-/* Paragraph */
-.fact p {
-margin: 0;
-line-height: 1.6;
-}
+            <!-- Information about the Jordan Brand -->
+            <div class="info">
+                <h1>The Jordan Brand</h1>
+
+                <p>
+                    <!-- Main introductory paragraph -->
+                    <span>
+                        Jordan Brand has grown from a basketball partnership into one of the most successful sports
+                        and lifestyle brands in the world. Its products are recognised not only for their connection
+                        to Michael Jordan but also for their influence on fashion, streetwear, and modern sneaker
+                        culture. The Jumpman logo has become one of the most recognisable symbols in sport.
+                    </span>
+
+                    Today, the brand continues to release new collections that are popular with athletes, collectors,
+                    and everyday fans. Its success shows how Jordan's impact extends well beyond basketball,
+                    demonstrating how one athlete's reputation can shape global business, culture, and style for
+                    generations.
+                </p>
+
+                <!-- Interesting fact about the Jordan Brand -->
+                <div class="did-you-know">
+                    <strong>Did you know?</strong>
+                    The original Air Jordan 1 shoes were banned by the NBA because they did not follow the league's
+                    uniform rules.
+                </div>
+            </div>
+
+            <!-- Image linking to the detailed Jordan Brand section -->
+            <div class="image">
+                <a href="secondary_jordan_brand.html" class="detail_link">
+
+                    <!-- Jordan Brand logo image -->
+                    <img src="Images/The_Jordan_Brand/Jordan_logo_red.jpg"
+                        alt="The Jordan Brand">
+
+                    <!-- Text displayed over/near the image to encourage users to read more -->
+                    <div class="detailed_page_text">
+                        <p>Read more</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Section 3: Information about Michael Jordan's famous last shot -->
+    <section class="content-section">
+
+        <!-- Two-column layout containing an image and information -->
+        <div class="two-column-1">
+
+            <!-- Image linking to the detailed Last Shot section -->
+            <div class="image">
+                <a href="#the-last-shot" class="detail_link">
+
+                    <!-- Image representing Jordan's famous last shot -->
+                    <img src="Images/The_last_Shot/Michael_Jordan_the_last_shot_main_photo.jpg"
+                        alt="The last shot">
+
+                    <!-- Text displayed over/near the image to encourage users to read more -->
+                    <div class="detailed_page_text">
+                        <p>Read more</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Information about the Last Shot -->
+            <div class="info">
+                <h1>The Last Shot</h1>
+
+                <p>
+                    <!-- Main introductory paragraph -->
+                    <span>
+                        "The Last Shot" has become a symbol of Michael Jordan's confidence and ability to perform in
+                        the biggest moments. Rather than being remembered simply as a championship-winning basket, it
+                        represents the calmness and determination that defined his career. It is often used as an
+                        example of how great athletes can stay focused even under enormous pressure.
+                    </span>
+
+                    The moment continues to be celebrated in documentaries, highlight videos, and basketball
+                    discussions around the world. For many fans, it represents the perfect ending to one of the
+                    greatest careers in professional sport and remains one of the most recognised images in NBA
+                    history.
+                </p>
+
+                <!-- Interesting fact about the Last Shot -->
+                <div class="did-you-know">
+                    <strong>Did you know?</strong>
+                    Michael Jordan scored 45 of the Bulls' 87 points in Game 6, including the championship-winning
+                    shot.
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Section 4: Information about Michael Jordan's legacy -->
+    <section class="content-section">
+
+        <!-- Two-column layout with information on the left and image on the right -->
+        <div class="two-column-2">
+
+            <!-- Information about Jordan's legacy -->
+            <div class="info">
+                <h1>The Legacy</h1>
+
+                <p>
+                    <!-- Main introductory paragraph -->
+                    <span>
+                        Michael Jordan's influence continues long after his playing career ended. His achievements
+                        inspired future generations of athletes to work harder, compete with confidence, and pursue
+                        excellence. Many basketball players still study his playing style, while fans continue to
+                        celebrate his accomplishments through games, documentaries, and memorabilia.
+                    </span>
+
+                    Beyond basketball, Jordan has influenced sport, business, and popular culture in ways that few
+                    athletes have achieved. His name has become associated with greatness, determination, and success,
+                    ensuring that his legacy continues to inspire people around the world and remains relevant decades
+                    after his retirement.
+                </p>
+
+                <!-- Interesting fact about Jordan's legacy -->
+                <div class="did-you-know">
+                    <strong>Did you know?</strong>
+                    Michael Jordan helped turn the NBA into a global sport, inspiring millions of fans and young
+                    players around the world.
+                </div>
+            </div>
+
+            <!-- Image linking to the detailed Legacy section -->
+            <div class="image">
+                <a href="#the-legacy" class="detail_link">
+
+                    <!-- Image showing Michael Jordan later in life -->
+                    <img src="Images/Main_page/Michael_Jordan_now.jpg"
+                        alt="The Legacy">
+
+                    <!-- Text displayed over/near the image to encourage users to read more -->
+                    <div class="detailed_page_text">
+                        <p>Read more</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- More Facts section containing additional information about Michael Jordan -->
+    <section class="facts-section">
+
+        <!-- Heading for the facts section -->
+        <h1>Some More Cool Facts</h1>
+
+        <!-- Grid containing individual fact cards -->
+        <div class="facts-grid">
+
+            <!-- Fact 1: High school basketball -->
+            <div class="fact">
+                <h3>🏀 Cut from the Team</h3>
+                <p>
+                    Michael Jordan was cut from his high school varsity basketball team as a sophomore,
+                    motivating him to work even harder.
+                </p>
+            </div>
+
+            <!-- Fact 2: Baseball career -->
+            <div class="fact">
+                <h3>⚾ Baseball Career</h3>
+                <p>
+                    Jordan briefly retired from basketball in 1993 and played professional baseball for the
+                    Birmingham Barons, a minor league team.
+                </p>
+            </div>
+
+            <!-- Fact 3: Jersey number -->
+            <div class="fact">
+                <h3>🎽 Jersey Number 45</h3>
+                <p>
+                    He wore the jersey number 45 when he returned to the NBA in 1995 before switching back to
+                    his famous number 23.
+                </p>
+            </div>
+
+            <!-- Fact 4: Washington Wizards -->
+            <div class="fact">
+                <h3>🧙 Washington Wizards</h3>
+                <p>
+                    Michael Jordan played his final two NBA seasons with the Washington Wizards from 2001 to
+                    2003.
+                </p>
+            </div>
+
+            <!-- Fact 5: Defensive Player of the Year -->
+            <div class="fact">
+                <h3>🛡️ Defensive Player</h3>
+                <p>
+                    Jordan won the NBA Defensive Player of the Year Award in 1988, showing he was an elite
+                    defender as well as a scorer.
+                </p>
+            </div>
+
+            <!-- Fact 6: Jordan's work ethic -->
+            <div class="fact">
+                <h3>🔥 Legendary Work Ethic</h3>
+                <p>
+                    Jordan was known for practising harder than many of his teammates, setting an example with
+                    his dedication and competitive attitude.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>

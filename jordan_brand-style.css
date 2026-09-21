@@ -42,7 +42,6 @@ body {
     display: inline-block;
 
     color: rgb(206, 17, 38);
-
     font-size: 1.1rem;
     font-weight: bold;
 
@@ -67,8 +66,7 @@ body {
 
     gap: 50px;
 
-    /* FIXED: Forces both the text and image columns to have identical heights */
-    align-items: stretch;
+    align-items: start;
 }
 
 
@@ -94,11 +92,6 @@ body {
     margin-bottom: 25px;
 }
 
-/* FIXED: Removes bottom margin on the absolute last paragraph to prevent container overflow */
-.secondary-info p:last-child {
-    margin-bottom: 0;
-}
-
 
 /* =========================
    IMAGES
@@ -110,19 +103,11 @@ body {
     flex-direction: column;
 
     gap: 25px;
-
-    /* FIXED: Commands the image column to occupy 100% height of the grid parent */
-    height: 100%;
 }
 
 .secondary-images img {
     width: 100%;
-    
-    /* FIXED: Automatically divides the space equally for 3 images, subtracting the 2 gaps */
-    height: calc((100% - 50px) / 3); 
-    
-    /* FIXED: Crops images intelligently inside their frames without stretching or squishing them */
-    object-fit: cover; 
+    height: auto;
 
     display: block;
 
@@ -130,8 +115,7 @@ body {
 
     box-shadow: 0 6px 14px rgba(0, 0, 0, .15);
 
-    transition: transform .3s ease;
-    will-change: transform;
+    transition: transform .3s;
 }
 
 .secondary-images img:hover {

@@ -5,7 +5,6 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
-
     box-sizing: border-box;
 }
 
@@ -15,106 +14,61 @@ body {
     margin: 0;
 }
 
-
-/* =========================
-   SECONDARY PAGE
-   ========================= */
-
-.secondary-page {
-    background: white;
-    width: 90%;
-    max-width: 1100px;
-
-    margin: 50px auto;
-    padding: 40px;
-
-    border-radius: 18px;
-
-    box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
-}
-
-
-/* =========================
-   BACK BUTTON
-   ========================= */
-
 .back-button {
     display: inline-block;
     color: rgb(206, 17, 38);
     font-size: 1.1rem;
     font-weight: bold;
     text-decoration: none;
-    margin-bottom: 30px;
+    border-radius: 15px;
+    transition: transform 0.4s ease;
 }
 
-.back-button:hover {
+.back-button:hover{
+    transform: scale(1.06);
     text-decoration: underline;
 }
+.secondary-page {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
+}
 
-
-/* =========================
-   SECONDARY PAGE LAYOUT
-   ========================= */
-
-.secondary-content {
+.content {
     display: grid;
-
     grid-template-columns: 2fr 1fr;
-
     gap: 50px;
-
     align-items: start;
 }
 
-
-/* =========================
-   INFORMATION
-   ========================= */
-
-.secondary-info h1 {
-    font-size: 2.6rem;
-
-    margin-top: 0;
-    margin-bottom: 30px;
-
-    color: #222;
-}
-
-.secondary-info p {
-    font-size: 1.1rem;
-
-    line-height: 1.7;
-
-    margin-top: 0;
-    margin-bottom: 25px;
-}
-
-
-/* =========================
-   IMAGES
-   ========================= */
-
-.secondary-images {
+.images {
     display: flex;
-
     flex-direction: column;
-
-    gap: 25px;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
 }
 
-.secondary-images img {
+.info p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* Fixed: targets the images inside the .images container correctly */
+.images img {
     width: 100%;
+    max-width: 300px;
     height: auto;
-
-    display: block;
-
     border-radius: 15px;
-
-    box-shadow: 0 6px 14px rgba(0, 0, 0, .15);
-
-    transition: transform .3s;
+    transition: transform 0.4s ease;
 }
 
-.secondary-images img:hover {
-    transform: scale(1.04);
+.images img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }

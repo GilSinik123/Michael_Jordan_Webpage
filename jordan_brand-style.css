@@ -20,13 +20,22 @@ body {
     font-size: 1.1rem;
     font-weight: bold;
     text-decoration: none;
-    margin-bottom: 30px;
+    border-radius: 15px;
+    transition: transform 0.4s ease;
 }
 
+.back-button:hover{
+    transform: scale(1.06);
+    text-decoration: underline;
+}
 .secondary-page {
     width: 90%;
     max-width: 1100px;
-    margin: 40px auto;
+    margin: 30px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .08);
 }
 
 .content {
@@ -36,14 +45,11 @@ body {
     align-items: start;
 }
 
-/* Fixed: added the dot (.) for the class selector */
 .images {
     display: flex;
     flex-direction: column;
-    /* Stacks the images vertically */
     justify-content: center;
-    gap: 20px;
-    /* Adds space between images */
+    gap: 30px;
     padding: 20px;
 }
 
@@ -55,7 +61,7 @@ body {
 
 /* Fixed: targets the images inside the .images container correctly */
 .images img {
-    width: 70%;
+    width: 90%;
     max-width: 300px;
     height: auto;
     border-radius: 15px;

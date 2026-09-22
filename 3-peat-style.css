@@ -40,14 +40,10 @@ body {
 
 .back-button {
     display: inline-block;
-
     color: rgb(206, 17, 38);
-
     font-size: 1.1rem;
     font-weight: bold;
-
     text-decoration: none;
-
     margin-bottom: 30px;
 }
 

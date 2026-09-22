@@ -24,10 +24,11 @@ body {
     transition: transform 0.4s ease;
 }
 
-.back-button:hover{
+.back-button:hover {
     transform: scale(1.06);
     text-decoration: underline;
 }
+
 .secondary-page {
     width: 90%;
     max-width: 1100px;

@@ -1,405 +1,325 @@
-# Michael Jordan Website — Peer Assessment Feedback
-
-**Website:** https://gilsinik123.github.io/Michael_Jordan_Webpage/  
-**GitHub Repository:** https://github.com/GilSinik123/Michael_Jordan_Webpage/
-
-**Note about scores:** The individual scores for Sprint 1 and Sprint 2 below are suggested allocations designed to average to the summary scores. They were not recorded in the original feedback, so they need to be confirmed with the reviewers before being treated as their actual scores. The Sprint 3 scores are copied from the original notes.
-
----
-
-# Sprint 1 — Showcase Version 1
+# Sprint 1: Showcase Version 1 Feedback
 
 ## Lailai
 
-### 1. Aesthetics — How does it look?
-**Suggested score: 4/6**
+### 1. Aesthetics: How does it look?
 
-**Positive feedback:** I think the main website looks visually appealing because it has a consistent style and clear headings that make the information easy to follow.
+**Score: 4/6**
 
-**Suggestion:** I would make the secondary page more similar to the main website by using the same fonts, colours, spacing and layout. This would help the two pages look like parts of the same website.
+**Positive:** I like the main website because the style is consistent and the headings make the information easy to follow.
 
-### 2. Functionality — Does it work?
-**Suggested score: 2/5**
+**Suggestion:** The secondary page could look more like the main website if it used similar fonts, colours, spacing and layout.
 
-**Positive feedback:** I found the secondary page easy to scroll through and read.
+### 2. Functionality: Does it work?
 
-**Suggestion:** I would add a clearly visible Back button so visitors can easily return to the main website.
+**Score: 3/5**
 
-### 3. Usability — Is it easy to use?
-**Suggested score: 2/4**
+**Positive:** I found the secondary page easy to scroll through and read.
 
-**Positive feedback:** I found the information easy to understand because it is divided into paragraphs with clear headings.
+**Suggestion:** I would add a Back button so visitors can return to the main website more easily.
 
-**Suggestion:** I think a clearly visible Back button would make navigation easier and help visitors move between the pages without confusion.
+### 3. Usability: Is it easy to use?
 
-### 4. Bonus Criteria — Optional
-**Suggested score: 1/3**
+**Score: 3/4**
 
-**Positive feedback:** I think the website presents Michael Jordan’s career and brand in an interesting way.
+**Positive:** The information is easy to understand because it is split into paragraphs with clear headings.
 
-**Suggestion:** I would make the secondary page more consistent with the main page so the whole website feels connected and professional.
+**Suggestion:** A Back button would make it clearer how to return to the main page.
 
-**Suggested total: 9/18**
+### 4. Bonus Criteria
 
----
+**Score: 2/3**
+
+**Positive:** The website presents Michael Jordan's career and brand in an interesting way.
+
+**Suggestion:** I would make the secondary page more consistent with the main page so the website feels more connected.
+
+**Total: 12/18**
 
 ## My Little Brother
 
-### 1. Aesthetics — How does it look?
-**Suggested score: 3/6**
+### 1. Aesthetics: How does it look?
 
-**Positive feedback:** I think the secondary page looks good because it includes relevant Jordan Brand images that make the information more interesting.
+**Score: 3/6**
 
-**Suggestion:** I would improve the alignment of the text and images so the page looks neater and more organised.
+**Positive:** The Jordan Brand images make the secondary page more interesting.
 
-### 2. Functionality — Does it work?
-**Suggested score: 3/5**
+**Suggestion:** I would line up the text and images better to make the secondary page look cleaner.
 
-**Positive feedback:** I found the page easy to scroll through and view the different sections.
+### 2. Functionality: Does it work?
 
-**Suggestion:** I would check that all the images load correctly and that navigating between the main page and the secondary page works as expected.
+**Score: 3/5**
 
-### 3. Usability — Is it easy to use?
-**Suggested score: 3/4**
+**Positive:** I could scroll through the page and view the different sections easily.
 
-**Positive feedback:** I found the information easy to read because it is separated into paragraphs.
+**Suggestion:** I would check that all the images load properly and that moving between the pages is easy.
 
-**Suggestion:** I would position each paragraph beside the image that matches its information. For example, the information about shoes should be beside a shoe image.
+### 3. Usability: Is it easy to use?
 
-### 4. Bonus Criteria — Optional
-**Suggested score: 2/3**
+**Score: 2/4**
 
-**Positive feedback:** I think the pictures make the Jordan Brand page more engaging and help visitors understand the topic.
+**Positive:** The paragraphs make the information easier to read.
 
-**Suggestion:** I would make sure each image clearly relates to the information beside it so the page is easier to follow.
+**Suggestion:** I would put each paragraph beside the image it relates to so it is easier to understand the information (on the secondary page).
 
-**Suggested total: 11/18**
+### 4. Bonus Criteria
 
----
+**Score: 2/3**
+
+**Positive:** The pictures make the Jordan Brand page more interesting and help explain the topic.
+
+**Suggestion:** I would make sure each picture matches the information beside it on the secondary page.
+
+**Total: 10/18**
 
 ## My Younger Sister
 
-### 1. Aesthetics — How does it look?
-**Suggested score: 5/6**
+### 1. Aesthetics: How does it look?
 
-**Positive feedback:** I like how the secondary page uses images and text to explain the Jordan Brand and its products.
+**Score: 5/6**
 
-**Suggestion:** I think the page would look better if the images and paragraphs lined up more neatly and had consistent spacing.
+**Positive:** I like how the page uses pictures and text to explain the Jordan Brand and its products.
 
-### 2. Functionality — Does it work?
-**Suggested score: 4/5**
+**Suggestion:** The page would look neater if the images and paragraphs lined up better and had even spacing.
 
-**Positive feedback:** I found the page straightforward to scroll through and look at the different images.
+### 2. Functionality: Does it work?
 
-**Suggestion:** I would check that the images are positioned beside the correct paragraphs so visitors can connect the pictures to the information.
+**Score: 3/5**
 
-### 3. Usability — Is it easy to use?
-**Suggested score: 4/4**
+**Positive:** I could scroll through the page and look at the different images without difficulty.
 
-**Positive feedback:** I found the information about the Jordan Brand understandable and interesting.
+**Suggestion:** I would make sure the pictures are beside the correct information so they are easy to connect.
 
-**Suggestion:** I would make sure each section matches its image clearly, such as placing the shoe information beside the shoe image and the jersey information beside the jersey image.
+### 3. Usability: Is it easy to use?
 
-### 4. Bonus Criteria — Optional
-**Suggested score: 3/3**
+**Score: 4/4**
 
-**Positive feedback:** I think the product images make the website more interesting and encourage visitors to learn more about Michael Jordan’s brand.
+**Positive:** I found the information about the Jordan Brand easy to understand and interesting.
 
-**Suggestion:** I would improve the connection between the text and images to make the page easier to follow and more professional.
+**Suggestion:** I would match each section with the right image, such as putting the shoe information beside a shoe picture.
 
-**Suggested total: 16/18**
+### 4. Bonus Criteria
 
----
+**Score: 2/3**
 
-## Sprint 1 — Summary of feedback and next steps
+**Positive:** The product pictures make the website more interesting and encourage people to learn about Michael Jordan's brand.
 
-The feedback showed that I needed to make the secondary page more consistent with the main page, improve the alignment between text and images, and provide a clear way to return to the main website.
+**Suggestion:** I would improve how the text and images fit together so the page is easier to follow.
 
-### Changes I planned to make
+**Total: 14/18**
 
-- Use styling that matches the main page, including fonts, colours, spacing and layout.
-- Add a Back button to the secondary page.
-- Improve the alignment and spacing of text and images.
-- Check that images display correctly and match the information beside them.
+## Sprint 1 Average Scores
 
-### Sprint 1 average scores
-
-| Category | Average score |
-|---|---:|
-| Aesthetics | 4/6 |
-| Functionality | 3/5 |
-| Usability | 3/4 |
-| Bonus Criteria | 2/3 |
-| **Total average** | **12/18** |
+- Aesthetics: 4/6
+- Functionality: 3/5
+- Usability: 3/4
+- Bonus Criteria: 2/3
+- **Overall average: 12/18**
 
 ---
 
-# Sprint 2 — Showcase Version 2
+# Sprint 2: Showcase Version 2 Feedback
 
 ## Lailai
 
-### 1. Aesthetics — How does it look?
-**Suggested score: 4/6**
+### 1. Aesthetics: How does it look?
 
-**Positive feedback:** I like how the secondary page has a clean layout, large headings and relevant basketball images that make the information visually appealing.
+**Score: 4/6**
 
-**Suggestion:** I would make the styling more consistent with the main website by matching its colours, fonts, spacing and overall design.
+**Positive:** The secondary page has a clean layout, large headings and relevant basketball images that make the information interesting.
 
-### 2. Functionality — Does it work?
-**Suggested score: 3/5**
+**Suggestion:** I would match the colours, fonts and spacing more closely to the main website.
 
-**Positive feedback:** I can see that a Back button has been added at the top of the page, giving visitors a way to return to the main website.
+### 2. Functionality: Does it work?
 
-**Suggestion:** I would make the Back button stand out more so visitors can notice it easily and understand that it provides a way back to the main page.
+**Score: 3/5**
 
-### 3. Usability — Is it easy to use?
-**Suggested score: 2/4**
+**Positive:** The Back button is now visible at the top of the page, giving visitors a way to return to the main website.
 
-**Positive feedback:** I found the page easy to read because the heading identifies the topic and the paragraphs explain the three-peat in chronological order.
+**Suggestion:** I would make the button stand out more so visitors can notice it easily.
 
-**Suggestion:** I would make the Back button more noticeable and ensure it is easy to identify so visitors can navigate between pages without confusion.
+### 3. Usability: Is it easy to use?
 
-### 4. Bonus Criteria — Optional
-**Suggested score: 1/3**
+**Score: 3/4**
 
-**Positive feedback:** I think the page provides useful information about the Chicago Bulls’ first three consecutive championships, supported by relevant images.
+**Positive:** The heading clearly explains the topic, and the paragraphs describe the three-peat in the correct order.
 
-**Suggestion:** I would keep improving the consistency between the secondary page and the main website to create a more connected experience.
+**Suggestion:** I would make the Back button easier to notice so visitors can find it when they want to return to the main page.
 
-**Suggested total: 10/18**
+### 4. Bonus Criteria
 
----
+**Score: 2/3**
+
+**Positive:** The page gives useful information about the Chicago Bulls' first three consecutive championships, with relevant images.
+
+**Suggestion:** I would keep the secondary page's design consistent with the main website.
+
+**Total: 12/18**
 
 ## My Little Brother
 
-### 1. Aesthetics — How does it look?
-**Suggested score: 5/6**
+### 1. Aesthetics: How does it look?
 
-**Positive feedback:** I like how the images are arranged down the right side while the text is on the left. This makes the information easier to follow.
+**Score: 5/6**
 
-**Suggestion:** I would improve the spacing between the images so they are distributed more evenly and the page looks balanced.
+**Positive:** I like how the text is on the left and the images are down the right side. It makes the information easy to follow.
 
-### 2. Functionality — Does it work?
-**Suggested score: 4/5**
+**Suggestion:** I would space the images out more evenly so the page looks balanced.
 
-**Positive feedback:** I noticed the Back button at the top of the page, which gives users a way to return to the main website.
+### 2. Functionality: Does it work?
 
-**Suggestion:** I would make the Back button more noticeable through its styling and hover effect, so visitors can recognise it as an interactive part of the page.
+**Score: 4/5**
 
-### 3. Usability — Is it easy to use?
-**Suggested score: 3/4**
+**Positive:** The Back button is easy to find at the top of the page and gives users a way to return to the main website.
 
-**Positive feedback:** I found the information easy to understand because the paragraphs explain the 1991, 1992 and 1993 championships in order.
+**Suggestion:** I would make the button stand out more through its styling.
 
-**Suggestion:** I would check how the text and images appear on different screen sizes so visitors can read the information comfortably.
+### 3. Usability: Is it easy to use?
 
-### 4. Bonus Criteria — Optional
-**Suggested score: 2/3**
+**Score: 3/4**
 
-**Positive feedback:** I think the page is interesting because it combines historical basketball information with images of important moments.
+**Positive:** The information is easy to understand because the paragraphs explain the 1991, 1992 and 1993 championships in order.
 
-**Suggestion:** I would consider adding a few more facts about Michael Jordan’s achievements to give visitors more information to explore.
+**Suggestion:** I would check how the text and images look on different screen sizes.
 
-**Suggested total: 14/18**
+### 4. Bonus Criteria
 
----
+**Score: 2/3**
+
+**Positive:** I like the historical basketball information and the images of important moments.
+
+**Suggestion:** I would add a few more facts about Michael Jordan's achievements.
+
+**Total: 14/18**
 
 ## My Younger Sister
 
-### 1. Aesthetics — How does it look?
-**Suggested score: 6/6**
+### 1. Aesthetics: How does it look?
 
-**Positive feedback:** I think the secondary page looks organised because the heading is large, the text is separated into paragraphs and the images are clearly displayed.
+**Score: 6/6**
 
-**Suggestion:** I would keep the fonts, colours and button style consistent with the main page so the overall design feels connected.
+**Positive:** The large heading, separate paragraphs and clear images make the secondary page look organised.
 
-### 2. Functionality — Does it work?
-**Suggested score: 5/5**
+**Suggestion:** I would use styling similar to the main page so both pages look like part of the same website.
 
-**Positive feedback:** I can see the Back button at the top of the page, which helps visitors understand how they can return to the main page.
+### 2. Functionality: Does it work?
 
-**Suggestion:** I would make its appearance more noticeable, including a clear hover effect, so visitors receive visual feedback when interacting with it.
+**Score: 5/5**
 
-### 3. Usability — Is it easy to use?
-**Suggested score: 4/4**
+**Positive:** The Back button is easy to see at the top of the page and helps visitors return to the main page.
 
-**Positive feedback:** I found the page straightforward to read because the title explains the topic and the paragraphs are clearly separated.
+**Suggestion:** I would improve its appearance so it matches the rest of the website.
 
-**Suggestion:** I would add alternative text to the images so visitors using screen readers can understand what each picture shows.
+### 3. Usability: Is it easy to use?
 
-### 4. Bonus Criteria — Optional
-**Suggested score: 3/3**
+**Score: 3/4**
 
-**Positive feedback:** I think the page keeps visitors interested by explaining Michael Jordan’s achievements and showing images related to the championship years.
+**Positive:** The title explains the topic, and the paragraphs are separated clearly, making the page easy to read.
 
-**Suggestion:** I would consider adding links to related sections so visitors can explore more information about Michael Jordan’s career and legacy.
+**Suggestion:** I would add alternative text to the images to help visitors using screen readers understand what each picture shows.
 
-**Suggested total: 18/18**
+### 4. Bonus Criteria
 
----
+**Score: 2/3**
 
-## Sprint 2 — Summary of feedback and next steps
+**Positive:** The page keeps visitors interested by explaining Michael Jordan's achievements and showing images from the championship years.
 
-The feedback showed that I had improved the layout and added a Back button, but there were still opportunities to improve the visual consistency of the secondary page, the spacing between images and the visibility of the navigation button. The feedback also encouraged me to consider accessibility and how the layout would appear on different screen sizes.
+**Suggestion:** I would add links to related sections so visitors can find more information about his career.
 
-### Changes I planned to make
+**Total: 16/18**
 
-- Continue matching the secondary page’s styling to the main website.
-- Improve the Back button’s visual styling so it is easier to notice.
-- Improve the spacing and alignment of images and text.
-- Consider alternative text for images and related links.
-- Consider how the layout could be improved for different screen sizes.
+## Sprint 2 Average Scores
 
-**Important detail about the Back button:** its click navigation already worked. The improvement was to its visual styling and hover behaviour, rather than adding a click function that was missing.
-
-### Sprint 2 average scores
-
-| Category | Average score |
-|---|---:|
-| Aesthetics | 5/6 |
-| Functionality | 4/5 |
-| Usability | 3/4 |
-| Bonus Criteria | 2/3 |
-| **Total average** | **14/18** |
+- Aesthetics: 5/6
+- Functionality: 4/5
+- Usability: 3/4
+- Bonus Criteria: 2/3
+- **Overall average: 14/18**
 
 ---
 
-# Sprint 3 — Final Version
-
-The following scores were recorded in the original feedback. Each reviewer awarded the final website **18/18**.
+# Sprint 3: Final Version Feedback
 
 ## Lailai
 
-### 1. Aesthetics — How does it look?
+### 1. Aesthetics: How does it look?
+
 **Score: 6/6**
 
-**Positive feedback:** I think the website looks really good because the colours, fonts and images work well together. I like how the secondary page now matches the main website, making the overall design look consistent and professional.
+**Feedback:** I think the website looks really good because the colours, fonts and images work well together. I like how the secondary page now matches the main website, making the design consistent and professional.
 
-**Suggestion for future development:** If more content is added, I would keep the same styling and layout so the website remains consistent.
+### 2. Functionality: Does it work?
 
-### 2. Functionality — Does it work?
 **Score: 5/5**
 
-**Positive feedback:** I found the website easy to navigate because the Back button allows users to return to the main page. The pages are organised well, and the navigation makes the website easy to explore.
+**Feedback:** I found the website easy to navigate because the Back button lets users return to the main page. The pages are organised well and easy to explore.
 
-**Suggestion for future development:** I would continue checking the navigation whenever new pages or links are added.
+### 3. Usability: Is it easy to use?
 
-### 3. Usability — Is it easy to use?
 **Score: 4/4**
 
-**Positive feedback:** I found the website easy to read and understand because the headings, paragraphs and images are clearly organised. I think visitors can easily find the information they are looking for.
+**Feedback:** I found the website easy to read because the headings, paragraphs and images are organised clearly. It is easy to find the information I am looking for.
 
-**Suggestion for future development:** I would keep the headings and paragraphs clear if more information is added.
+### 4. Bonus Criteria
 
-### 4. Bonus Criteria — Optional
 **Score: 3/3**
 
-**Positive feedback:** I think the website is engaging and informative because it presents Michael Jordan’s career, achievements and brand in an interesting way. In my opinion, the website is finished and ready to be the final version.
-
-**Suggestion for future development:** Related links or additional facts could be considered if the website is expanded in the future.
+**Feedback:** The website is interesting and informative because it covers Michael Jordan's career, achievements and brand. I think it is finished and ready to be the final version.
 
 **Total: 18/18**
-
----
 
 ## My Little Brother
 
-### 1. Aesthetics — How does it look?
+### 1. Aesthetics: How does it look?
+
 **Score: 6/6**
 
-**Positive feedback:** I really like how the website looks because the layout is neat, the colours are consistent and the basketball images match the topic. I think the main page and secondary page look good together.
+**Feedback:** I like how the website looks because the layout is clean, the colours match and the basketball images fit the topic. The main page and secondary page look good together.
 
-**Suggestion for future development:** I would keep the spacing and layout consistent if new sections are added.
+### 2. Functionality: Does it work?
 
-### 2. Functionality — Does it work?
 **Score: 5/5**
 
-**Positive feedback:** I think the website works well because the Back button makes it easier to move between pages, and the information is organised into clear sections. I found it straightforward to use.
+**Feedback:** The Back button makes it easier to move between pages, and the information is split into clear sections. I found the website straightforward to use.
 
-**Suggestion for future development:** I would keep checking the Back button and other links after any future changes to the website.
+### 3. Usability: Is it easy to use?
 
-### 3. Usability — Is it easy to use?
 **Score: 4/4**
 
-**Positive feedback:** I found the website easy to follow because the headings clearly show what each section is about. The text and images are positioned well, making the information simple to understand.
+**Feedback:** The headings make it clear what each section is about. The text and images are positioned well, so the information is easy to understand.
 
-**Suggestion for future development:** I would continue placing images near the information they relate to so the page remains easy to follow.
+### 4. Bonus Criteria
 
-### 4. Bonus Criteria — Optional
 **Score: 3/3**
 
-**Positive feedback:** I think the website is interesting because it includes facts and images about Michael Jordan’s career and achievements. I believe it is a strong final version and does not need any further changes.
-
-**Suggestion for future development:** More facts about Jordan’s achievements could be added if the purpose of the website is expanded.
+**Feedback:** I like the facts and images about Michael Jordan's career and achievements. I think it is a good final version and does not need any more changes.
 
 **Total: 18/18**
-
----
 
 ## My Younger Sister
 
-### 1. Aesthetics — How does it look?
+### 1. Aesthetics: How does it look?
+
 **Score: 6/6**
 
-**Positive feedback:** I think the website looks great because the images are clear, the text is organised and the design is consistent across the pages. I especially like how the secondary page matches the style of the main page.
+**Feedback:** I think the website looks great because the images are clear, the text is organised and both pages have a consistent style. The secondary page matches the main page well.
 
-**Suggestion for future development:** I would keep the colours, fonts and layout consistent if any new content is added.
+### 2. Functionality: Does it work?
 
-### 2. Functionality — Does it work?
 **Score: 5/5**
 
-**Positive feedback:** I found the website easy to use because the Back button helps visitors return to the main page, and the layout makes it easy to move through the information.
+**Feedback:** The Back button helps visitors return to the main page, and the layout makes it easy to move through the information.
 
-**Suggestion for future development:** I would continue checking that the navigation remains clear and works properly if the website is updated.
+### 3. Usability: Is it easy to use?
 
-### 3. Usability — Is it easy to use?
 **Score: 4/4**
 
-**Positive feedback:** I found the website welcoming and easy to understand because the headings, paragraphs and images are arranged clearly. I could follow the information without difficulty.
+**Feedback:** I found the website easy to understand because the headings, paragraphs and images are arranged clearly. I could follow the information very easily.
 
-**Suggestion for future development:** I would continue to consider accessibility, including descriptive alternative text for images.
+### 4. Bonus Criteria
 
-### 4. Bonus Criteria — Optional
 **Score: 3/3**
 
-**Positive feedback:** I think the website is enjoyable to explore because it includes interesting information about Michael Jordan and his legacy. In my opinion, the website looks complete and is ready to be submitted as the final version.
-
-**Suggestion for future development:** Related links could be considered if more sections are added to help visitors explore the topic further.
+**Feedback:** I enjoyed looking through the website because it includes interesting information about Michael Jordan and his legacy. I think it is complete and ready to be submitted.
 
 **Total: 18/18**
-
----
-
-## Sprint 3 — Final scores
-
-| Category | Lailai | Younger brother | Younger sister |
-|---|---:|---:|---:|
-| Aesthetics | 6/6 | 6/6 | 6/6 |
-| Functionality | 5/5 | 5/5 | 5/5 |
-| Usability | 4/4 | 4/4 | 4/4 |
-| Bonus Criteria | 3/3 | 3/3 | 3/3 |
-| **Total** | **18/18** | **18/18** | **18/18** |
-
----
-
-# How I Used the Feedback to Improve the Website
-
-## Sprint 1 to Sprint 2
-
-The Sprint 1 feedback identified three main areas to improve: consistency between the main and secondary pages, the positioning of text and images, and navigation between pages. I used this feedback to guide the next stage of development by improving the secondary page’s styling, adding a Back button and working on the layout.
-
-In terms of fitness for purpose, these changes helped make the information easier to follow and made it clearer how visitors could return to the main page.
-
-## Sprint 2 to Sprint 3
-
-The Sprint 2 feedback focused on making the design more consistent, improving image spacing and making the Back button more noticeable. I refined the styling and added a hover enlargement effect to the Back button. When a visitor moves the mouse over the button, it enlarges and then returns to its normal size when the mouse moves away.
-
-The Back button’s navigation function already worked; the improvement was its appearance and hover behaviour. This helped make the button more noticeable and provided visual feedback when visitors interacted with it.
-
-I also continued using a consistent layout and positioning images close to the information they relate to. These changes helped the website look more organised and supported the purpose of presenting information about Michael Jordan in a clear and engaging way.
-
-## Final Trialling
-
-In Sprint 3, Lailai, my younger brother and my younger sister each awarded the final website 18/18. Their feedback highlighted the consistent design, clear headings, relevant images and easy navigation. This supported the decision to keep the final layout and styling.
-
-The final feedback was positive overall. Future improvements could include more responsive layouts for different screen sizes, alternative text for images and additional related links. These are possible future improvements rather than changes I have claimed to
